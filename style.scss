@@ -76,9 +76,39 @@
   }
 
   .card-content {
-    padding: 10px 8px;
-    flex: 1 0 0;
+    padding: 10px 2px;
+    flex: 1 0 20%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 20px;
+
+    #left-side {
+      color: #EF574B;
+      font-weight: 600;
+
+      & > div:first-child {
+        font-size: 0.7em;
+      }
+
+      & > div:last-child {
+        font-size: 1em;
+        color: #e53324;
+      }
+    }
+
+    #right-side {
+      display: flex;
+      flex-wrap: wrap;
+      width: 40px;
+      font-size: 0.9em;
+      font-weight: 600;
+      color: #033803;
+
+      & span {
+        width: 20px;
+        text-align: right;
+      }
+    }
   }
 }
