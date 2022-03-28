@@ -23,7 +23,6 @@
   flex-direction: column;
   padding: 8px;
 
-
   &:before ,
   &:after {
     content: "";
@@ -109,6 +108,59 @@
         width: 20px;
         text-align: right;
       }
+    }
+  }
+
+  .haft-sin-item {
+    position:absolute;
+
+    img {
+      max-width: 60px;
+    }
+
+    &[data-name="seke"] {
+      left: -80px;
+      top: -30px;
+    }
+
+    &[data-name="mahi"] {
+      left: 110px;
+      top: -80px;
+    }
+
+    &[data-name="ayeneh"] {
+      right: -80px;
+      top: -40px;
+    }
+
+    &[data-name="sabzeh"] {
+      left: -88px;
+      top: 120px;
+    }
+
+    &[data-name="samanoo"] {
+      right: -90px;
+      top: 120px;
+    }
+
+    &[data-name="senjed"] {
+      left: 48px;
+      bottom: -80px;
+    }
+
+    &[data-name="sib"] {
+      right: -90px;
+      bottom: 30px;
+    }
+
+    &[data-name="sir"] {
+      left: -88px;
+      bottom: 15px;
+    }
+
+    &[data-name="tokhme-morgh-rangi"] {
+      right: 50px;
+      bottom: -80px;
     }
   }
 }
