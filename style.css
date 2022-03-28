@@ -102,6 +102,7 @@
 }
 .card .haft-sin-item img {
   max-width: 60px;
+  transition: all 0.4s;
 }
 .card .haft-sin-item[data-name=seke] {
   left: -80px;
