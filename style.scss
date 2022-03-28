@@ -23,6 +23,10 @@
   flex-direction: column;
   padding: 8px;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   &:before ,
   &:after {
     content: "";
@@ -113,10 +117,10 @@
 
   .haft-sin-item {
     position:absolute;
+    transition: all 0.4s;
 
     img {
       max-width: 60px;
-      transition: all 0.4s;
     }
 
     &[data-name="seke"] {
