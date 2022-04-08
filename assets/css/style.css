@@ -62,7 +62,7 @@
   flex: 1 1 80%;
   margin: 0 auto;
   border-radius: 6px;
-  background: #EF574B url("assets/img/bg.png") no-repeat center center;
+  background: #EF574B url("/assets/img/bg.png") no-repeat center center;
   width: 100%;
   background-size: contain;
 }
@@ -132,8 +132,8 @@
   bottom: -80px;
 }
 .card .haft-sin-item[data-name=sib] {
-  right: -90px;
-  bottom: 30px;
+  right: -115px;
+  bottom: 16px;
 }
 .card .haft-sin-item[data-name=sir] {
   left: -88px;
